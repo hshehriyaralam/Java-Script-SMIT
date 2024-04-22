@@ -301,3 +301,271 @@ var user_name = ""; */
 // }else{
 //     console.log("email not found")
 // }
+
+
+//Practice 
+//  var UserInput = prompt("Enter your number")
+//  if(UserInput % 3 === 0){
+//     console.log("allow")
+//  }else{
+//     console.log("Not Allow")
+//  }
+
+// var UsrMarks = prompt("Enter Your Marks")
+
+// if( UsrMarks >= 80 && UsrMarks <=100 ){
+//     console.log("A-one")
+// }else if(UsrMarks >= 70 && UsrMarks <= 79){
+//     console.log("A")
+// }else if(UsrMarks >= 60 && UsrMarks <= 69){
+//     console.log("B")
+// }else if(UsrMarks >= 50 && UsrMarks <= 59){
+//     console.log("C")
+// }else if(UsrMarks >= 0 && UsrMarks <= 49){
+//     console.log("Fail")
+// }else{
+//     console.log("Please Enter Correct Marks")
+// }
+
+
+// Arrray >>> Data Types
+// Array >>> Collection OF items 
+// Array >>> Information Store Karane kA ek Linear Tarika hai;
+// var fruit1 = "apple";
+// var fruit2 = "Mango";
+// var fruit3 = "Banana";
+
+// var fruits = ["apple", "Mango", "Banana", "Orange"];
+// console.log(fruits);
+// console.log(fruits[0]);
+// console.log(fruits[1]);
+// console.log(fruits[2]);
+// console.log(fruits[4]);
+
+// array assign ke bd or bh add kr sakte hain
+// var StdName = ["Jaffar"];
+
+// StdName[1] = "Aman";
+// StdName[2] = "Alam";
+// StdName[3] = "farhan";
+// StdName[4] = "shayan";
+// StdName[5] = "arshad";
+// StdName[6] = "talat";
+// StdName[7] = "muneeb";
+// StdName[8] = "Alam";
+
+// console.log(StdName);
+
+// var fruitArr = ["apple", "Bnana", "Mango", "Orange", "Tamato"];
+// var numArr = [10,  20, 30, "number", true, null, undefined,];
+
+// console.log(numArr)
+
+// var numArr = [10, 20, 30];
+
+// numArr[2] = "100";
+// console.log(numArr);
+
+// var fruitArr = ["apple", "mango", "Banana", "Malta",]
+// console.log(fruitArr);
+
+
+// Pop,Push >>> Remove & add Last index
+
+/// for add >>>push
+// For Remove >>>pop
+
+
+// fruitArr.push("orange");
+// console.log(fruitArr);
+
+// fruitArr.pop();
+// fruitArr.pop();
+// fruitArr.pop();
+// fruitArr.push("Orange");
+
+
+// console.log(fruitArr);  
+
+// var fruitArr = ["apple", "mango", "Banana", "Malta",]
+// console.log(fruitArr);
+
+
+// // fruitArr.push("Banana")
+
+// fruitArr.pop();
+// console.log(fruitArr);
+
+
+
+//Shift,Unshift >>>> First index add and remove
+
+// shift >>>> remove
+// Unshift >>>  add
+
+// var fruitArr = ["apple", "mango", "Banana", "Malta",]
+// console.log(fruitArr);
+
+// fruitArr.shift();
+// console.log(fruitArr)
+
+// fruitArr.unshift("apple")
+// console.log(fruitArr)
+
+// pop, push >>> Last
+// Shift , Unshift >>> First
+
+// // lenght >>       1        2         3        4
+// var fruitArr = ["apple", "mango", "Banana", "Malta",]
+// //  index        0         1        2         3
+// console.log(fruitArr);
+
+// var slicefruitArr = fruitArr.slice(2)
+// console.log(slicefruitArr);
+
+// var fruitArr = ["apple", "mango", "Banana", "Malta",];
+// //splice 
+// console.log(fruitArr)
+// fruitArr.splice(2,0, "pakistan", "Karachi")
+// console.log(fruitArr);
+
+
+// var fruit = "mango";
+// var fruit = "Apple";
+// var fruit = "Banana";
+// var fruit = "Orange";
+
+
+// var fruit = ["apple", "Orange", "mango", "Banana", "Malta"]
+// console.log(fruit[1]);
+// console.log(fruit[0]);
+// console.log(fruit[2]);
+// console.log(fruit[4]);
+
+
+// prop/method =>
+
+
+// var arr = [];
+// arr[0] = "karachi";
+// arr[1] = "Lahore";
+// arr[3] = "Multan";
+// arr[4] = "Rawalpindi";
+// arr[5] = "Quetta";
+// arr[6] = "Faislabad";
+// console.log(arr);
+// console.log(arr.pop());
+// var cities = [];
+// cities[2] = "islamabad";
+// cities[3] = "Multan";
+// cities.push("delhi", "Islamabad", "Karachi")
+// cities.pop()
+// cities.pop()
+// cities.pop()
+
+
+// console.log(cities)
+
+
+// var fruitArr = ["Apple", "Mango", "Banana", "Orange"]
+// console.log(fruitArr)
+
+// console.log(fruitArr[0])
+// console.log(fruitArr[1])
+// console.log(fruitArr[2])
+// console.log(fruitArr[3])
+
+
+
+// // Array Ki Value add ho rhi hai
+// var stdName = ["Jaffar"]
+
+// stdName[1] = "Aman"
+// stdName[2] = "Aman"
+// console.log(stdName);
+
+
+
+// // Array main changing bh ho sakti hai, data type bh change ho sakti hai
+
+
+// var numArr = [10, 20, 30, "Mango", "Banana", "Orange"]
+// console.log(numArr)
+// numArr[2] = "100";
+// console.log(numArr);
+
+
+
+// var fruits = ["apple", "Mango", "Banana", "Orange",]
+// console.log(fruits.length)
+
+
+// var friends = ["Talat", "Muneeb", "Ahmad", "Arshad"];
+// console.log(friends);
+
+// friends.pop()
+// friends.pop()
+// console.log(friends);
+
+
+// var CoaFriends = ["Ahmad", "Arshad", "Umar"]
+// console.log(CoaFriends);
+// CoaFriends.push("Mudassir")
+// console.log(CoaFriends)
+// CoaFriends.push("Asad");
+// console.log(CoaFriends)
+
+
+
+
+// var PakPlayers = ["Babar", "Amir", "Imad", "Rizwan",]
+// console.log(PakPlayers);
+// PakPlayers.unshift("Saim");
+// console.log(PakPlayers);
+// PakPlayers.unshift("Usman Khan")
+// console.log(PakPlayers);
+
+
+
+
+// var IndPlayers = ["Kohli", "Rohit", "Shubman", "Hardhik"]
+// console.log(IndPlayers);
+// IndPlayers.shift()
+// console.log(IndPlayers);
+// IndPlayers.shift()
+// console.log(IndPlayers);
+
+
+// var KarachiKings = ["Shan", "Pollard", "Irfan", "Tim", "Mathew"]
+// console.log(KarachiKings);
+// var KarachiToLahoere = KarachiKings.slice(0)
+// console.log(KarachiToLahoere)
+
+
+// var Peshawar = ["Babar", "saim", "haris", "Jamal"]
+// console.log(Peshawar);
+// Peshawar.splice("Walton");
+// console.log(Peshawar);"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
