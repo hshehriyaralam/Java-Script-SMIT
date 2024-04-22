@@ -548,7 +548,39 @@ var user_name = ""; */
 // console.log(Peshawar);"
 
 
+//Loop
 
+//For Loop
+/* for (initialization, condition, increment/Decrement){
+    Block OF Code
+}*/
+
+
+
+// for (var i = 1; i <= 9; i++ ){
+//     console.log("Hello World", i)
+// }
+
+
+// for (var i = 1; i <= 10; i++){
+// document.write(i + ": " +"<span>Hello World</span>" + "<br />" )
+// };
+
+
+// for (var i = 1; i <= 10; i++){
+//     document.write("2 x " + i + "=" + i * 2 + "<br />")
+// }
+// for (var i = 1; i <= 10; i++){
+//     document.write(" 3 x " + i + "=" + i * 3 + "<br />")
+// }
+
+
+
+// document.write("2 x 1 = 2" + "<br />")
+// document.write("2 x 2 = 4" + "<br />")
+// document.write("2 x 3 = 6" + "<br />")
+// document.write("2 x 4 = 8" + "<br />")
+// document.write("2 x 5 = 10" + "<br />")
 
 
 
