@@ -582,6 +582,116 @@ var user_name = ""; */
 // document.write("2 x 4 = 8" + "<br />")
 // document.write("2 x 5 = 10" + "<br />")
 
+// For Loop
+
+// document.write(1 + "<br />");
+
+// //round
+// for (var i = 1; i<=10; i++){
+//     document.write(i)
+// };
+
+
+// var tableNumber = +prompt("enter table number")
+// var tablelenght = +prompt("Enter table lenght")
+// console.log(tableNumber, "table Number")
+
+// for (var i = 1; i <= tablelenght; i++){
+//     document.write(tableNumber + " x" + i + "=" + tableNumber * i + "<br />")
+// }
+
+// var tableNumber = +prompt("enter table number:")
+// var tableLen = +prompt("enter table length:")
+// console.log(tableNumber, "tableNumber")
+
+// for (var i = 1; i <= tableLen; i++) {
+//     document.write(tableNumber + " x" + i + "=" + tableNumber * i + "<br />")
+// }
+
+
+// var tableNumber = +prompt("Enter Number")
+// var tablelenght = +prompt("Enter Lenght")
+// console.log(tableNumber, "table number")
+
+// for (var i = 1; i<=tablelenght; i++){
+//     document.write(tableNumber + " x " + i + "=" + tableNumber * i + "<br />")
+// }
+
+// round 
+// for (var i = 1; i<= 100; i++){
+//     console.log("Hello", i)
+// }
+
+// var i = 10;
+// for(i; i >= 1; i--){
+//     console.log(i)
+// }
+
+
+
+
+
+
+// for (var i = 1; i <= 20; i++){
+//     if(i % 2 == 0){
+//         console.log(i, "odd")
+//     }
+// }
+
+
+// for(var i = 1; i <= 50; i++){
+//     if(i % 2 !== 0){
+//         console.log(i, "even")
+//     }
+// }
+
+
+// var arr = ["karachi", "Multan", "lahore", "delhi"];
+// // console.log(arr[0]);
+// // console.log(arr[1]);
+// // console.log(arr[2]);
+// // console.log(arr[3]);
+
+
+// for ( i = 0; i<= arr.length; i++){
+//     console.log(arr[i])
+// };
+
+
+
+
+
+// for (var i =1; i<=200; i++){
+//     if (i == 98){
+//         console.log(i, "Hello World")
+//         // break
+//         continue
+//     }
+//     console.log(i)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
