@@ -669,6 +669,185 @@ var user_name = ""; */
 //     }
 //     console.log(i)
 // }
+ 
+
+// var userCity = prompt("Enter your city").toLowerCase()
+// var cityCollection = ["karachi", "lahore", "multan"]
+// var isMatch = false;
+
+
+// for (var i = 0; i<=cityCollection.length; i++){
+//     if(cityCollection[i] === userCity) {
+//         console.log("exist")
+//         isMatch = true;
+    
+//     }
+// }
+// console.log("isMatch", isMatch)
+
+// if(isMatch === false){
+//     console.log("not Exist")
+// }
+
+// var userCity = prompt("Enter Your City")
+// var cityCollection = ["karachi", "lahore", "Islamabad", "Kashmir"]
+
+
+
+// console.log("hello world")
+
+//Events
+// function greet (userName){
+//     console.log(userName,);
+//     alert("Hello Class " + userName)
+// }
+
+// greet();
+// console.log(document);
+
+
+
+    // function saveUsername(){
+    //     //Read----Get Value
+    //     var userName = document.getElementById("userName")
+    //     console.log("userName", userName.value)
+
+    //     // document.write(userName.value);
+    //     // write ---Set Value
+    //     // var userName = document.getElementById("userName");
+    //     // console.log("username", userName.value);
+
+    //     var userName = document.getElementById("userName")
+    //     userName.value = "";
+
+    // }
+
+
+// Calculator 
+// var addValue(num){
+//     var inputField = document.getElementById("inputField");
+//     // console.log(inputField, "inputField")
+//     inputField.value += 
+// }
+
+
+// let strA = "Hi";
+// let strB = strA;
+
+// strB = "bye";
+// console.log();
+
+// function ChangeImg(check, elem){
+//     console.log("changeimg", check, elem)
+
+// if(check == 'in')
+// {
+//     // console.log("Virat");
+//     elem.src="./R.jpeg"
+    
+
+// }else{
+//     // console.log("Babar");
+//     elem.src = "./Babar-Azam1.jpg"
+// }
+
+
+// }
+
+
+// function changeImg(check, elem) {
+//     console.log("changeImg", check, elem)
+
+//     if (check == "over") {
+//         elem.src = "./R.jpeg"
+//     } else {
+//         elem.src = "./Babar-Azam1.jpg"
+//     }
+// }
+
+// function foo(){
+//     console.log("foo")
+// }
+
+// function inputfocus(shahmeer){
+//     console.log("inputFocus()", shahmeer)
+//     shahmeer.style.color = "red"
+//     shahmeer.style.backgroundColor = "blue"
+// }
+
+// function inputblur(sherry){
+//     console.log("inputblur", sherry);
+//     sherry.style.color ="green";
+//     sherry.style.backgroundColor ="green";
+// }
+
+// function getValue(){
+//     var shahmeer = document.getElementById("para");
+//     console.log("getValue", shahmeer.innerHTML)
+// }
+//  var name = "Shehriyar"
+// function setValue(){
+//     var shahmeer = document.getElementById('para');
+//     console.log("setValue", );
+//     shahmeer.innerHTML += "Hello World";
+// }
+
+// var paraLong = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia doloremque exercitationem sequi ullam quibusdam minima incidunt velit laudantium a molestiae";
+// var paraShort = "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+
+// function seeMore(anchorElem){
+//     var para = document.getElementById('para')
+//     if(anchorElem.innerHTML === "See More"){
+//         anchorElem.innerHTML = "See Less"
+//         para.innerHTML = paraLong;
+//         }
+//         else{
+//             anchorElem.innerHTML = "See More"
+//             para.innerHTML = paraShort;
+//         }
+// }
+
+// function Show(btnElem){
+//     console.log("btnElem", btnElem.innerHTML);
+//     var password = document.getElementById('Password')
+//     console.log(password.value);
+
+//     if(btnElem.innerHTML == "SHOW"){
+//         btnElem.innerHTML = "Hide Password"
+//         password.type = "text"
+//     }else{
+//         btnElem.innerHTML = "SHOW";
+//         password.type = "password"
+//     }
+// }
+
+// function showPass(btnElem) {
+//     console.log("btnElem", btnElem.innerHTML)
+//     var password = document.getElementById("password")
+
+//     if (btnElem.innerHTML == "SHOW") {
+//         btnElem.innerHTML = "HIDE"
+//         password.type = "text"
+//     } else {
+//         btnElem.innerHTML = "SHOW"
+//         password.type = "password"
+//     }
+// }
+
+function toggleImg(){
+    var image = document.getElementById('image');
+    console.log("image", image.className);
+    if(image.className == "show"){
+        image.className = "hidden"
+    }else{
+        image.className = "show"
+    }
+}
+
+
+var image = document.getElementById('image');
+console.log(image.className);
+image.className += "border";
 
 
 
@@ -677,6 +856,54 @@ var user_name = ""; */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
