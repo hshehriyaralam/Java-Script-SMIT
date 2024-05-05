@@ -1,0 +1,14 @@
+If Conditions
+user input through prompt
+
+= assign
+== value check
+=== value and Data Type Check
+>
+<
+>=
+<=
+!  Not Sign
+else if  ==> Multiple Conditions
+Operators :
+*Logical Operators /gates    endGates    ORGates

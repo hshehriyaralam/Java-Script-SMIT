@@ -1,0 +1,38 @@
+ Separater "UsrAge Allow"
+ 18 ya 18 se zyada  >=18
+ 50 h0 ya 50 se km  <= 50
+ if ifelse ifelse, else
+ End Gates 2ono true ho
+ OR Gate 2ono m se ek true ho 
+ nested if need bohat km jaga,   if ke andar ek or if , condition ke andar conditions
+ java script ain jb bh method call kraenge () lagan lazmi hai
+*Arrays*
+Collection OF Data  any type
+[] array Bracket 
+array ke nadar jitne bh value hOgi wo array ki lenght hOgi
+ampare => var arr = [];
+java script main array use hota hai non-genaric koi bh data type use kr sakte hain(string, number, bolean)
+java script ke array main koi limitation nh hai
+jb value change sakte hain to value ki dat type bh change kr sakte hain 
+array ki lenght 1 se start hogi
+array ki index 0 se start hogi
+array ki pre defin method  || pop and push 
+POP: sb se last value remove kr dega 
+PUSH: ek value add Hoga sb se last m
+SHIFT: start value remove kr dega 
+UNSHIFT: ek value add Hoga sb se start m
+kuch method apko kuch return krte hain    || kch value mil rahi hai 
+kuch method apko kuch return nh  krte hain   || POP PUSH SHIFT UNSHIFT  || kuch value mil nh rhi 
+array ki andar se copy nikalni hain usko bolte hainn *slice*
+jb bh array ki slice nikalo ge variable se nikalenge
+slice (strating , ending point)
+       index,       lenght
+///array se remove krna hai  center se use karenge splice
+splice : ( starting, delete_count,  "add value")  ek aysa method hai at a time remove bh karega add bh karega 
+                                      optional
+
+
+
+
+
+

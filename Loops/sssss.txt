@@ -1,0 +1,11 @@
+////Loops
+execute piece of Code again & again
+koi kam ayesa jise hame repeate krna hai multiple time
+///Types Of Loops
+1)for loops
+                      parenthesis
+ keyword             initiale value   stopping condition      updation 
+  for              (let i = 1;        i<= 5;                  i++)               {
+    console.log("Apna College")
+}
+2) while Loop |||Jo km For Loops Se krte Wo km bh While loop se kr sakte hain 

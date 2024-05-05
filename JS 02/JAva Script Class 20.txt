@@ -1,0 +1,24 @@
+25-feb-2024
+
+JAVA Script :
+
+Clint side dynamic things through java script
+Ayesi application jisme Sign up and login ke bd use kr sakta hain wo web application , jisme frontend and backend bh ho that's called web application
+Web application: Fb, Youtube, 
+Website: Wikipedia
+
+Java Script kya hai: Scripting Language / Programming Language /Clint side Language
+Scripting LAnguage: Wo LAnguage JO BRowser pr run kre
+Programmin: Set Of Instruction
+Low level programming: low level convert machine learning
+High Level: Convert High TO Low . Conver to machine Learning
+Java Sript High LEvel , High LEvel Make LOw Level , JAva Script make C++
+All Programming Core Concept is same bu syntaxs are diff
+Syntax: How to Write a code
+
+
+
+Translatores: Compiler , Interpreter , assembler
+Compiler: pehle Poora Code Read krega Phr Compile Krega  (Speed up HOta Hai)   (Error Handling nh hOti) (Scripting LAnuage Compiler USe nh KRti)
+Interpreter: Line By Line Code Read , Ek line read Output Dega , Kisi Error Ki wja se Ruk Jayega(Java Script Enterpreter Hai)  (Slow Work) (Error Handle Line Number BTa Dega)
+Assebler:  {Self Explore}
