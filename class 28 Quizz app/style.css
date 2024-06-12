@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hide{
+    /* visibility: none; */
+    display: none;
+}
+
+.show{
+    visibility: visible;
+}
+
+#QuizContainer{
+    border: 1px solid red;
+    width: 60%;
+    margin: 0 auto;
+}
+.header{
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 60%; */
+}
+.body ol{
+    list-style-position: inside;
+    list-style: none;
+    margin: 5px;
+}
+/* .body h3{
+
+} */
+.footer{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
